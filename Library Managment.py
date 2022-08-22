@@ -5,7 +5,6 @@ import sys
 # Making the class Library
 class Library:
 
-
     def __init__(self, list_of_book):
         # List_of_books stores the books list
         self.availablebook = list_of_book
@@ -35,7 +34,6 @@ class Library:
         # you can remove the print statement if you want to
         print('Thank you for donating the book to the library')
         self.availablebook.append(book_donation)
-
 
 class Student:
 
@@ -85,4 +83,3 @@ def main():
             sys.exit()  # exit the system completely
 
 main()
-
